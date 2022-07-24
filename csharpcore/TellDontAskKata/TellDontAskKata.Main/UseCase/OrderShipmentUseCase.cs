@@ -1,4 +1,5 @@
 ﻿using TellDontAskKata.Main.Repository;
+using TellDontAskKata.Main.Requests;
 using TellDontAskKata.Main.Service;
 
 namespace TellDontAskKata.Main.UseCase

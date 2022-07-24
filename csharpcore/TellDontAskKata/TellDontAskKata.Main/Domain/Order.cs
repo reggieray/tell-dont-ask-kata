@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using TellDontAskKata.Main.UseCase;
+using TellDontAskKata.Main.Exceptions;
 
 namespace TellDontAskKata.Main.Domain
 {
@@ -37,6 +37,8 @@ namespace TellDontAskKata.Main.Domain
             {
                 this.Status = OrderStatus.Shipped;
             }
+
+            
         }
 
         private bool CanApprove(bool approved)

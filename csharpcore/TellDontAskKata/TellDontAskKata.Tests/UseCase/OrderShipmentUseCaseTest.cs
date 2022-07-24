@@ -1,5 +1,7 @@
 ﻿using System;
 using TellDontAskKata.Main.Domain;
+using TellDontAskKata.Main.Exceptions;
+using TellDontAskKata.Main.Requests;
 using TellDontAskKata.Main.UseCase;
 using TellDontAskKata.Tests.Doubles;
 using Xunit;
